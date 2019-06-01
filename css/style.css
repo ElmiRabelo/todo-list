@@ -1,0 +1,112 @@
+
+/* ---- RESET ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #774177;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.todo-container {
+  background: #8e4e8e;
+  width: 600px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.primary-text {
+  text-align: center; 
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  line-height: 1.4;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.secondary-text {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  line-height: 1.4;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  margin: 2rem 0;
+  border-bottom: 2px solid #1c0f1c;
+}
+
+.todo-form #search {
+  display: block;
+  border: none;
+  background: #995f99;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  height: 40px;
+  margin: 0.3rem 0 1.2rem 0;
+}
+
+.todo-form .addTask {
+  margin: 2rem 0 0.4rem 0;
+}
+.todo-form .addTask #add {
+  display: block;
+  border: none;
+  background: #a65ba6;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1.1rem;
+  width: 100%;
+  height: 40px;
+  margin: 0.3rem 0 1.2rem 0;
+}
+
+.todo-form ::placeholder {
+  color: #ccc;
+  padding: 0.3rem;
+}
+.todos { margin: 0.8rem 0; }
+.todos li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: #995f99;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  cursor: pointer;
+  background: #f4f4f4;
+  color: #000;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
