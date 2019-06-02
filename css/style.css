@@ -17,8 +17,8 @@ ul {
 }
 
 /* filter search */
-.filtered {
-  display: none;
+.filter {
+  display: none !important;
 }
 
 
