@@ -13,24 +13,20 @@
     <div class="todo-container">
       <h1 class="primary-text">Lista de Tarefas</h1>
 
-      <form class="todo-form">
-        <div class="form-group">
-          <input type="text" name="search" id="search" placeholder="Busque uma tarefa">
-        </div>
+      <div class="todo-form">
+        <input type="text" name="search" id="search" placeholder="Busque uma tarefa">
         <h2 class="task-title secondary-text">Tarefas</h2>
         <ul class="todos">
-          <li>Lavar os pratos <i class="fas fa-minus-circle"></i></li>
-          <li>Cozinhar arroz <i class="fas fa-minus-circle"></i></li>
-          <li>Ler um livro <i class="fas fa-minus-circle"></i></li>
+          <li>Lavar os pratos <i class="fas fa-minus-circle delete"></i></li>
+          <li>Cozinhar arroz <i class="fas fa-minus-circle delete"></i></li>
+          <li>Ler um livro <i class="fas fa-minus-circle delete"></i></li>
         </ul>
 
-        <div class="form-group addTask">
+        <form class="form-group addTask">
           <input type="text" name="add" id="add" placeholder="Adicione uma tarefa">
-        </div>
-        <div class="form-submit">
           <input class="btn-submit" type="submit" value="Adicionar">
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 

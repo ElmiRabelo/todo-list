@@ -16,6 +16,11 @@ ul {
   list-style: none;
 }
 
+/* filter search */
+.filtered {
+  display: none;
+}
+
 
 .container {
   max-width: 1200px;
@@ -94,11 +99,11 @@ ul {
 }
 
 
-.form-submit {
+.addTask {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .btn-submit {
   cursor: pointer;
   background: #f4f4f4;
