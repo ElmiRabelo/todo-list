@@ -1,6 +1,5 @@
 const addTask = document.querySelector('.addTask');
 const todoList = document.querySelector('.todos');
-const todoItems = document.querySelectorAll('.todo-item');
 const search = document.getElementById('search');
 
 
